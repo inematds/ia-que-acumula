@@ -1,0 +1,2 @@
+# IA que acumula
+Leia README.md e PRODUCT.md. Kit Python local, guia HTML self-contained em guia/. PT fonte, traduções pelo inema-traduz da assinatura. Manter comandos e nomes de arquivos literais. Não prometer um Jarvis completo: este kit organiza contexto, revisão e prova. Autor e committer: inematds <inematds@gmail.com>. Publicação via git; Pages via Actions. Testes: python3 -m unittest -v test_kit.py. Nunca versionar segredos, arquivos de estado de produção ou MP4s.

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+meu-jarvis/
+pedido.txt
+i18n/pedido-*.txt
+i18n/traducao-*.log
+.verificacao/
+
+i18n/ajuste-*

@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T17:47:34.230187+00:00",
+  "title": "Design System: IA que acumula",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "hero",
+        "value": "0 30px 80px -30px #000",
+        "purpose": "Sombra da figura inicial."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "nav-wrap",
+        "value": "520px"
+      },
+      {
+        "name": "cards-single",
+        "value": "540px"
+      },
+      {
+        "name": "videos-single",
+        "value": "600px"
+      },
+      {
+        "name": "examples-single",
+        "value": "680px"
+      },
+      {
+        "name": "nav-sections-hidden",
+        "value": "760px"
+      },
+      {
+        "name": "hero-single",
+        "value": "780px"
+      },
+      {
+        "name": "cards-two",
+        "value": "820px"
+      },
+      {
+        "name": "videos-two",
+        "value": "940px"
+      }
+    ],
+    "motion": [
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "Âncoras; auto sob prefers-reduced-motion."
+      }
+    ],
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "amber",
+        "tonalRamp": [
+          "oklch(15% 0.13745 75.25)",
+          "oklch(26% 0.13745 75.25)",
+          "oklch(38% 0.13745 75.25)",
+          "oklch(49% 0.13745 75.25)",
+          "oklch(61% 0.13745 75.25)",
+          "oklch(72% 0.13745 75.25)",
+          "oklch(84% 0.13745 75.25)",
+          "oklch(95% 0.13745 75.25)"
+        ]
+      },
+      "amber-soft": {
+        "role": "primary",
+        "displayName": "amber-soft",
+        "tonalRamp": [
+          "oklch(15% 0.11261 79.03)",
+          "oklch(26% 0.11261 79.03)",
+          "oklch(38% 0.11261 79.03)",
+          "oklch(49% 0.11261 79.03)",
+          "oklch(61% 0.11261 79.03)",
+          "oklch(72% 0.11261 79.03)",
+          "oklch(84% 0.11261 79.03)",
+          "oklch(95% 0.11261 79.03)"
+        ]
+      },
+      "club": {
+        "role": "secondary",
+        "displayName": "club",
+        "tonalRamp": [
+          "oklch(15% 0.13899 232.66)",
+          "oklch(26% 0.13899 232.66)",
+          "oklch(38% 0.13899 232.66)",
+          "oklch(49% 0.13899 232.66)",
+          "oklch(61% 0.13899 232.66)",
+          "oklch(72% 0.13899 232.66)",
+          "oklch(84% 0.13899 232.66)",
+          "oklch(95% 0.13899 232.66)"
+        ]
+      },
+      "pro": {
+        "role": "secondary",
+        "displayName": "pro",
+        "tonalRamp": [
+          "oklch(15% 0.01985 252.89)",
+          "oklch(26% 0.01985 252.89)",
+          "oklch(38% 0.01985 252.89)",
+          "oklch(49% 0.01985 252.89)",
+          "oklch(61% 0.01985 252.89)",
+          "oklch(72% 0.01985 252.89)",
+          "oklch(84% 0.01985 252.89)",
+          "oklch(95% 0.01985 252.89)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "background",
+        "tonalRamp": [
+          "oklch(15% 0.00845 285.38)",
+          "oklch(26% 0.00845 285.38)",
+          "oklch(38% 0.00845 285.38)",
+          "oklch(49% 0.00845 285.38)",
+          "oklch(61% 0.00845 285.38)",
+          "oklch(72% 0.00845 285.38)",
+          "oklch(84% 0.00845 285.38)",
+          "oklch(95% 0.00845 285.38)"
+        ]
+      },
+      "background-raised": {
+        "role": "neutral",
+        "displayName": "background-raised",
+        "tonalRamp": [
+          "oklch(15% 0.01402 285.02)",
+          "oklch(26% 0.01402 285.02)",
+          "oklch(38% 0.01402 285.02)",
+          "oklch(49% 0.01402 285.02)",
+          "oklch(61% 0.01402 285.02)",
+          "oklch(72% 0.01402 285.02)",
+          "oklch(84% 0.01402 285.02)",
+          "oklch(95% 0.01402 285.02)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "card",
+        "tonalRamp": [
+          "oklch(15% 0.01584 284.91)",
+          "oklch(26% 0.01584 284.91)",
+          "oklch(38% 0.01584 284.91)",
+          "oklch(49% 0.01584 284.91)",
+          "oklch(61% 0.01584 284.91)",
+          "oklch(72% 0.01584 284.91)",
+          "oklch(84% 0.01584 284.91)",
+          "oklch(95% 0.01584 284.91)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "tonalRamp": [
+          "oklch(15% 0.01649 285.27)",
+          "oklch(26% 0.01649 285.27)",
+          "oklch(38% 0.01649 285.27)",
+          "oklch(49% 0.01649 285.27)",
+          "oklch(61% 0.01649 285.27)",
+          "oklch(72% 0.01649 285.27)",
+          "oklch(84% 0.01649 285.27)",
+          "oklch(95% 0.01649 285.27)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "text",
+        "tonalRamp": [
+          "oklch(15% 0.00670 286.27)",
+          "oklch(26% 0.00670 286.27)",
+          "oklch(38% 0.00670 286.27)",
+          "oklch(49% 0.00670 286.27)",
+          "oklch(61% 0.00670 286.27)",
+          "oklch(72% 0.00670 286.27)",
+          "oklch(84% 0.00670 286.27)",
+          "oklch(95% 0.00670 286.27)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.01741 285.93)",
+          "oklch(26% 0.01741 285.93)",
+          "oklch(38% 0.01741 285.93)",
+          "oklch(49% 0.01741 285.93)",
+          "oklch(61% 0.01741 285.93)",
+          "oklch(72% 0.01741 285.93)",
+          "oklch(84% 0.01741 285.93)",
+          "oklch(95% 0.01741 285.93)"
+        ]
+      },
+      "light-amber": {
+        "role": "primary",
+        "displayName": "light-amber",
+        "tonalRamp": [
+          "oklch(15% 0.12693 69.79)",
+          "oklch(26% 0.12693 69.79)",
+          "oklch(38% 0.12693 69.79)",
+          "oklch(49% 0.12693 69.79)",
+          "oklch(61% 0.12693 69.79)",
+          "oklch(72% 0.12693 69.79)",
+          "oklch(84% 0.12693 69.79)",
+          "oklch(95% 0.12693 69.79)"
+        ]
+      },
+      "light-amber-soft": {
+        "role": "primary",
+        "displayName": "light-amber-soft",
+        "tonalRamp": [
+          "oklch(15% 0.12068 66.44)",
+          "oklch(26% 0.12068 66.44)",
+          "oklch(38% 0.12068 66.44)",
+          "oklch(49% 0.12068 66.44)",
+          "oklch(61% 0.12068 66.44)",
+          "oklch(72% 0.12068 66.44)",
+          "oklch(84% 0.12068 66.44)",
+          "oklch(95% 0.12068 66.44)"
+        ]
+      },
+      "light-club": {
+        "role": "secondary",
+        "displayName": "light-club",
+        "tonalRamp": [
+          "oklch(15% 0.11929 242.75)",
+          "oklch(26% 0.11929 242.75)",
+          "oklch(38% 0.11929 242.75)",
+          "oklch(49% 0.11929 242.75)",
+          "oklch(61% 0.11929 242.75)",
+          "oklch(72% 0.11929 242.75)",
+          "oklch(84% 0.11929 242.75)",
+          "oklch(95% 0.11929 242.75)"
+        ]
+      },
+      "light-pro": {
+        "role": "secondary",
+        "displayName": "light-pro",
+        "tonalRamp": [
+          "oklch(15% 0.14551 49.00)",
+          "oklch(26% 0.14551 49.00)",
+          "oklch(38% 0.14551 49.00)",
+          "oklch(49% 0.14551 49.00)",
+          "oklch(61% 0.14551 49.00)",
+          "oklch(72% 0.14551 49.00)",
+          "oklch(84% 0.14551 49.00)",
+          "oklch(95% 0.14551 49.00)"
+        ]
+      },
+      "light-background": {
+        "role": "neutral",
+        "displayName": "light-background",
+        "tonalRamp": [
+          "oklch(15% 0.00287 264.54)",
+          "oklch(26% 0.00287 264.54)",
+          "oklch(38% 0.00287 264.54)",
+          "oklch(49% 0.00287 264.54)",
+          "oklch(61% 0.00287 264.54)",
+          "oklch(72% 0.00287 264.54)",
+          "oklch(84% 0.00287 264.54)",
+          "oklch(95% 0.00287 264.54)"
+        ]
+      },
+      "light-background-raised": {
+        "role": "neutral",
+        "displayName": "light-background-raised",
+        "tonalRamp": [
+          "oklch(15% 0.00578 264.53)",
+          "oklch(26% 0.00578 264.53)",
+          "oklch(38% 0.00578 264.53)",
+          "oklch(49% 0.00578 264.53)",
+          "oklch(61% 0.00578 264.53)",
+          "oklch(72% 0.00578 264.53)",
+          "oklch(84% 0.00578 264.53)",
+          "oklch(95% 0.00578 264.53)"
+        ]
+      },
+      "light-card": {
+        "role": "neutral",
+        "displayName": "light-card",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "light-line": {
+        "role": "neutral",
+        "displayName": "light-line",
+        "tonalRamp": [
+          "oklch(15% 0.00971 273.35)",
+          "oklch(26% 0.00971 273.35)",
+          "oklch(38% 0.00971 273.35)",
+          "oklch(49% 0.00971 273.35)",
+          "oklch(61% 0.00971 273.35)",
+          "oklch(72% 0.00971 273.35)",
+          "oklch(84% 0.00971 273.35)",
+          "oklch(95% 0.00971 273.35)"
+        ]
+      },
+      "light-text": {
+        "role": "neutral",
+        "displayName": "light-text",
+        "tonalRamp": [
+          "oklch(15% 0.01551 285.06)",
+          "oklch(26% 0.01551 285.06)",
+          "oklch(38% 0.01551 285.06)",
+          "oklch(49% 0.01551 285.06)",
+          "oklch(61% 0.01551 285.06)",
+          "oklch(72% 0.01551 285.06)",
+          "oklch(84% 0.01551 285.06)",
+          "oklch(95% 0.01551 285.06)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "light-muted",
+        "tonalRamp": [
+          "oklch(15% 0.02076 285.58)",
+          "oklch(26% 0.02076 285.58)",
+          "oklch(38% 0.02076 285.58)",
+          "oklch(49% 0.02076 285.58)",
+          "oklch(61% 0.02076 285.58)",
+          "oklch(72% 0.02076 285.58)",
+          "oklch(84% 0.02076 285.58)",
+          "oklch(95% 0.02076 285.58)"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "description": "Ação principal, como acesso ao GitHub.",
+      "html": "<a class=\"ds-primary\" href=\"#\">GitHub</a>",
+      "css": ".ds-primary{font-family:Sora,sans-serif;font-weight:600;padding:.6em 1.05em;border-radius:10px;display:inline-block;text-decoration:none;background:var(--amb,#E2A23B);color:#1a1206}.ds-primary:focus-visible{outline:3px solid var(--sky,#38bdf8);outline-offset:4px}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "description": "Download ou troca do agente na simulação.",
+      "html": "<button class=\"ds-ghost\" type=\"button\">Trocar agente</button>",
+      "css": ".ds-ghost{font-family:Sora,sans-serif;font-weight:600;padding:.6em 1.05em;border-radius:10px;display:inline-block;text-decoration:none;background:transparent;color:var(--txt,#e9e9ee);border:1px solid var(--line,#272730);cursor:pointer}.ds-ghost:focus-visible{outline:3px solid var(--sky,#38bdf8);outline-offset:4px}",
+      "refersTo": "button-ghost"
+    },
+    {
+      "name": "Cartão",
+      "kind": "card",
+      "description": "Organiza uma explicação curta.",
+      "html": "<article class=\"ds-card\"><h3>Escolha um resultado</h3><p>Defina o que precisa aparecer.</p></article>",
+      "css": ".ds-card{background:var(--card,#16161e);color:var(--txt,#e9e9ee);border:1px solid var(--line,#272730);border-radius:14px;padding:20px}.ds-card h3{font:700 1.05rem/1.15 Sora,sans-serif;margin:0 0 .4em}.ds-card p{font:.92rem/1.65 Inter,system-ui,sans-serif;color:var(--mut,#9a9aa6);margin:0}",
+      "refersTo": "card"
+    },
+    {
+      "name": "Idiomas",
+      "kind": "nav",
+      "description": "Links PT/EN/ES; idioma atual com destaque.",
+      "html": "<nav class=\"ds-lang\" aria-label=\"Language\"><a href=\"#\" aria-current=\"page\">PT</a><a href=\"#\">EN</a><a href=\"#\">ES</a></nav>",
+      "css": ".ds-lang{display:inline-flex;gap:2px;font:.78rem Sora,sans-serif}.ds-lang a{color:var(--mut,#9a9aa6);padding:.2em .45em;border-radius:6px;text-decoration:none}.ds-lang [aria-current]{color:var(--amb,#E2A23B);background:rgba(226,162,59,.12)}.ds-lang a:focus-visible{outline:3px solid var(--sky,#38bdf8);outline-offset:4px}"
+    },
+    {
+      "name": "Tema",
+      "kind": "button",
+      "description": "Alternância clara/escura; estado ilustrado sem JavaScript.",
+      "html": "<button class=\"ds-theme\" type=\"button\" aria-label=\"Alternar tema claro e escuro\" aria-pressed=\"false\">☀</button>",
+      "css": ".ds-theme{background:var(--bg2,#14141b);border:1px solid var(--line,#272730);color:var(--txt,#e9e9ee);width:38px;height:38px;border-radius:10px;cursor:pointer;font-size:1.05rem}.ds-theme:hover{border-color:var(--amb,#E2A23B)}.ds-theme:focus-visible{outline:3px solid var(--sky,#38bdf8);outline-offset:4px}"
+    },
+    {
+      "name": "Rótulo técnico",
+      "kind": "chip",
+      "description": "Marcador de seção em caixa alta.",
+      "html": "<span class=\"ds-chip\">Parte técnica</span>",
+      "css": ".ds-chip{display:inline-block;font:600 .72rem Sora,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--amb,#E2A23B)}"
+    },
+    {
+      "name": "Guia de leitura",
+      "kind": "custom",
+      "description": "Modo da superfície guia: Read. Resumo e explicação precedem o exercício técnico.",
+      "html": "<div class=\"ds-reading\"><h2>Em resumo</h2><p>Uma base de trabalho que conserva seu aprendizado.</p></div>",
+      "css": ".ds-reading{max-width:74ch;color:var(--txt,#e9e9ee);font:16px/1.65 Inter,system-ui,sans-serif}.ds-reading h2{font:800 clamp(1.5rem,3.4vw,2.1rem)/1.15 Sora,sans-serif;letter-spacing:-.02em;margin:0}.ds-reading p{margin:1em 0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Guia INEMA dark/âmbar",
+    "overview": "Documentação do sistema já implementado, preservando o template projetos-landing-guia fixado pelo usuário. Superfícies escuras, títulos geométricos e acentos âmbar organizam textos, imagens explicativas e exercícios; o tema claro mantém os mesmos papéis visuais. A expressão acima descreve o template existente, sem propor uma nova identidade.",
+    "keyCharacteristics": [
+      "Hierarquia tipográfica Sora/Inter, com monoespaçada nos comandos.",
+      "Painéis com borda fina, cantos arredondados e imagens grandes.",
+      "Identidade INEMA.CLUB/PRO e navegação PT/EN/ES persistentes."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** preservar o template INEMA dark/âmbar e seu tema claro equivalente.",
+      "**Do** manter INEMA.CLUB/PRO, seletor PT/EN/ES e controles acessíveis.",
+      "**Do** preservar proporção das imagens, limites de leitura e comandos literais."
+    ],
+    "donts": [
+      "**Don't** substituir os players sob demanda por iframes carregados na abertura.",
+      "**Don't** apresentar a simulação como execução real de IA.",
+      "**Don't** apresentar a curva conceitual como gráfico de dados medidos."
+    ]
+  }
+}

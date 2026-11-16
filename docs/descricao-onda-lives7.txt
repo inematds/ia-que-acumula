@@ -1,0 +1,18 @@
+Guia com os seis vídeos e kit gratuito: https://inematds.github.io/ia-que-acumula/guia/
+
+Visão autoral de Nei Maldaner. Cenários sobre dependência tecnológica e valorização do conhecimento após 2027, sem promessa de emprego ou renda. Curva exponencial conceitual, sem medição. Kits e estudo: https://inema.club e https://inema.pro.
+
+Kit grátis para baixar: https://github.com/inematds/explicavideos/releases/tag/kit-ia-que-acumula-v1.0.0
+IA que acumula — contexto, incorporação de repositórios e provas.
+
+A melhoria confirmada entra na memória. Uma falha vira uma regra pequena e um novo teste. É assim que o Jarvis que evolui acumula conhecimento, mesmo quando você troca de modelo. Ele ainda depende das ferramentas que você escolheu, mas o método fica com você. É isso que praticamos no inema ponto club e no inema ponto pro. Seu agente reaproveita o que você ensina ou pede a mesma explicação todo dia?
+
+
+# Trilha dos seis vídeos
+
+"Cipher" Kevin MacLeod (incompetech.com). Licença Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Fonte oficial: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100844
+Arquivo: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cipher2.mp3
+
+Baixado em 16/11/2026 pelo inemavox/baixar_v1.py, qualidade audio. Uso nos vídeos: trecho recortado, volume reduzido e atenuado sob a fala. Incluir estes créditos na descrição do vídeo publicado.
